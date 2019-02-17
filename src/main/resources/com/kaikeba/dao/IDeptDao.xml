@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kaikeba.dao.IDeptDao">
+  <select id="selectDept" resultType="Dept">
+    select * from dept where depNo = #{depNo}
+  </select>
+  <insert id="insertDept" parameterType="Dept" useGeneratedKeys="true" keyProperty="depNo">
+    insert into dept (depName, loc) values(#{depName}, #{loc})
+  </insert>
+  <insert id="insertDept2" parameterType="Dept" keyProperty="depNo">
+    <selectKey resultType="Integer" keyProperty="depNo" order="BEFORE">
+      select max(depNo)+1 from dept
+  </selectKey>
+    insert into dept (depNo, depName, loc) values(#{depNo}, #{depName}, #{loc})
+  </insert>
+
+</mapper>
