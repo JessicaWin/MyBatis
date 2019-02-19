@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+  <select id="deptFindByDeptNo" resultType="Dept">
+    select * from dept where depNo = #{depNo} and depName = #{depName}
+  </select>
+  <select id="find4" resultType="Dept">
+    select * from dept where depName= #{depName}  and loc = #{loc}
+  </select>
+  <resultMap id="DeptResultMap" type="Dept">
+    <id column="depNo" property="depNo"></id>
+    <result column="depName" property="depName"/>
+    <result column="loc" property="loc"/>
+  </resultMap>
+  <select id="findAll" resultMap="DeptResultMap">
+    select * from dept
+  </select>
+  <insert id="insertDept" parameterType="Dept" useGeneratedKeys="true" keyProperty="depNo">
+    insert into dept (depName, loc) values(#{depName}, #{loc})
+  </insert>
+  <insert id="insertDept2" parameterType="Dept" keyProperty="depNo">
+    <selectKey resultType="Integer" keyProperty="depNo" order="BEFORE">
+      select max(depNo)+1 from dept
+  </selectKey>
+    insert into dept (depNo, depName, loc) values(#{depNo}, #{depName}, #{loc})
+  </insert>
+
+</mapper>
