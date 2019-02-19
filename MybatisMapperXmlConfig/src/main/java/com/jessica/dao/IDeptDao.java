@@ -1,6 +1,6 @@
-package com.kaikeba.dao;
+package com.jessica.dao;
 
-import com.kaikeba.entity.Dept;
+import com.jessica.entity.Dept;
 
 import java.io.IOException;
 import java.util.List;

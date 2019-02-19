@@ -1,6 +1,7 @@
-import com.kaikeba.dao.IDeptDao;
-import com.kaikeba.dao.impl.DeptDaoImpl;
-import com.kaikeba.entity.Dept;
+package com.jessica.dao;
+
+import com.jessica.dao.impl.DeptDaoImpl;
+import com.jessica.entity.Dept;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;

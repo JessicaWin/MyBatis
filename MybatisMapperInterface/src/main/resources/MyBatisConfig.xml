@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias type="com.kaikeba.entity.Dept" alias="Dept"/>
+        <typeAlias type="com.jessica.entity.Dept" alias="Dept"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -27,6 +27,6 @@
         </environment>
     </environments>
     <mappers>
-        <package name="com.kaikeba.dao"></package>
+        <package name="com.jessica.dao"></package>
     </mappers>
 </configuration>

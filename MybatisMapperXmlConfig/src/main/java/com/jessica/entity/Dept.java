@@ -1,4 +1,4 @@
-package com.kaikeba.entity;
+package com.jessica.entity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

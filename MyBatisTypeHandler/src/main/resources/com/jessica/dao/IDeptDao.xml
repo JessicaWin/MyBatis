@@ -3,11 +3,17 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.jessica.dao.IDeptDao">
-  <select id="selectDept" resultType="Dept">
+  <resultMap id="DeptResultMap" type="Dept">
+    <result column="flag" property="flag" typeHandler="com.jessica.handler.BooleanTypeHandler"/>
+  </resultMap>
+  <select id="findAll" resultMap="DeptResultMap">
+    select * from dept
+  </select>
+  <select id="findByDeptNo" resultType="Dept">
     select * from dept where depNo = #{depNo}
   </select>
   <insert id="insertDept" parameterType="Dept" useGeneratedKeys="true" keyProperty="depNo">
-    insert into dept (depName, loc) values(#{depName}, #{loc})
+    insert into dept (depName, loc, flag) values(#{depName}, #{loc}, #{flag})
   </insert>
   <insert id="insertDept2" parameterType="Dept" keyProperty="depNo">
     <selectKey resultType="Integer" keyProperty="depNo" order="BEFORE">

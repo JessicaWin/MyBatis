@@ -1,7 +1,7 @@
-package com.kaikeba.dao.impl;
+package com.jessica.dao.impl;
 
-import com.kaikeba.dao.IDeptDao;
-import com.kaikeba.entity.Dept;
+import com.jessica.dao.IDeptDao;
+import com.jessica.entity.Dept;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
