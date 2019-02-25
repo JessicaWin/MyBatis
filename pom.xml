@@ -12,6 +12,7 @@
         <module>MyBatisTypeHandler</module>
         <module>MybatisMapperXmlConfig</module>
         <module>MybatisMapperInterface</module>
+        <module>MybatisDeptFactory</module>
     </modules>
 
 
