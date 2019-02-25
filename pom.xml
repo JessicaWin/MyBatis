@@ -13,6 +13,7 @@
         <module>MybatisMapperXmlConfig</module>
         <module>MybatisMapperInterface</module>
         <module>MybatisDeptFactory</module>
+        <module>MybatisPlugin</module>
     </modules>
 
 

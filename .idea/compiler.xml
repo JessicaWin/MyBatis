@@ -9,6 +9,7 @@
         <module name="MybatisDeptFactory" />
         <module name="MybatisMapperInterface" />
         <module name="MybatisMapperXmlConfig" />
+        <module name="MybatisPlugin" />
         <module name="MyBatisTypeHandler" />
       </profile>
     </annotationProcessing>
