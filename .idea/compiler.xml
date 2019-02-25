@@ -11,6 +11,7 @@
         <module name="MybatisMapperXmlConfig" />
         <module name="MybatisPlugin" />
         <module name="MybatisProxy" />
+        <module name="MybatisSessionProxy" />
         <module name="MyBatisTypeHandler" />
       </profile>
     </annotationProcessing>

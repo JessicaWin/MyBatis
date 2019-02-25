@@ -15,6 +15,7 @@
         <module>MybatisDeptFactory</module>
         <module>MybatisPlugin</module>
         <module>MybatisProxy</module>
+        <module>MybatisSessionProxy</module>
     </modules>
 
 
