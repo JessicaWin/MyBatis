@@ -6,6 +6,12 @@
   <select id="selectDept" resultType="Dept">
     select * from dept where depNo = #{depNo}
   </select>
+  <select id="selectDept2" resultType="Dept">
+    select * from dept where depName = '${depName}' and loc=#{loc}
+  </select>
+  <select id="selectAll" resultType="Dept">
+    select * from ${value}
+  </select>
   <insert id="insertDept" parameterType="Dept" useGeneratedKeys="true" keyProperty="depNo">
     insert into dept (depName, loc) values(#{depName}, #{loc})
   </insert>

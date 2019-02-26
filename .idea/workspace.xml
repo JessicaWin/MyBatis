@@ -11,11 +11,10 @@
       <change afterPath="$PROJECT_DIR$/../hello-world/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hello-world/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hello-world/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisPlugin/src/main/java/com/jessica/intercept/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisPlugin/src/main/java/com/jessica/invocation/MyInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MybatisPlugin/src/main/resources/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisPlugin/src/main/resources/MyBatisConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisMapperInterface/src/main/java/com/jessica/dao/IDeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisMapperInterface/src/main/java/com/jessica/dao/IDeptDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,19 +42,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/session/DeptMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/factory/SqlSessionFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,10 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="704" column="62" lean-forward="true" selection-start-line="702" selection-start-column="41" selection-end-line="704" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -75,57 +65,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/invocation/SqlInvocationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MybatisProxy/src/main/java/com/jessica/proxy/Invocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MybatisProxy/src/test/java/ProxyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="273">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/test/java/com/jessica/proxy/TestDept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="25" column="114" selection-start-line="25" selection-start-column="114" selection-end-line="25" selection-end-column="114" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/entity/Dept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -133,17 +77,54 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="113">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
+        <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/MyBatisConfig.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/java/com/jessica/dao/IDeptDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="497" selection-start-line="497" selection-end-line="497" />
+            <state relative-caret-position="105">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/test/java/com/jessica/proxy/TestDept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="26" column="3" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/resources/com/jessica/dao/IDeptDao.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/entity/Dept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -212,6 +193,9 @@
         <option value="$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/session/DeptMapper.java" />
         <option value="$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/invocation/SqlInvocationHandler.java" />
         <option value="$PROJECT_DIR$/MybatisSessionProxy/src/test/java/com/jessica/proxy/TestDept.java" />
+        <option value="$PROJECT_DIR$/MybatisMapperInterface/src/main/java/com/jessica/dao/IDeptDao.java" />
+        <option value="$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml" />
+        <option value="$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java" />
       </list>
     </option>
   </component>
@@ -246,6 +230,41 @@
             <path>
               <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisDeptFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisDeptFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisDeptFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisDeptFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisDeptFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,6 +279,33 @@
               <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jessica" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jessica" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
@@ -281,59 +327,14 @@
             <path>
               <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -341,106 +342,11 @@
             <path>
               <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-              <item name="invocation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jessica" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="MybatisMapperInterface" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="MybatisSessionProxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mybatis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,7 +358,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551109881959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551145257472" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -490,26 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDept (1)">
-    <configuration name="ProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisProxy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProxyTest" />
-      <option name="METHOD_NAME" value="testProxy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProxyTest.testProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisProxy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ProxyTest" />
-      <option name="METHOD_NAME" value="testProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestDept.testSelectAll">
     <configuration name="TestDept (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MybatisSessionProxy" />
       <extension name="coverage">
@@ -525,7 +412,7 @@
       </method>
     </configuration>
     <configuration name="TestDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisDeptFactory" />
+      <module name="MybatisMapperInterface" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jessica.dao.*" />
@@ -534,6 +421,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.jessica.dao" />
       <option name="MAIN_CLASS_NAME" value="com.jessica.dao.TestDept" />
+      <option name="METHOD_NAME" value="testSelect2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -552,17 +440,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDept.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MybatisDeptFactory" />
+    <configuration name="TestDept.testSelect2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisMapperInterface" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jessica.proxy.*" />
+          <option name="PATTERN" value="com.jessica.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jessica.dao" />
       <option name="MAIN_CLASS_NAME" value="com.jessica.dao.TestDept" />
-      <option name="METHOD_NAME" value="testSelect" />
+      <option name="METHOD_NAME" value="testSelect2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDept.testSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisMapperInterface" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jessica.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jessica.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.jessica.dao.TestDept" />
+      <option name="METHOD_NAME" value="testSelectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -586,11 +490,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDept.testSelectAll" />
+        <item itemvalue="JUnit.TestDept" />
+        <item itemvalue="JUnit.TestDept.testSelect2" />
         <item itemvalue="JUnit.TestDept (1)" />
         <item itemvalue="JUnit.TestDept.testSqlSession" />
-        <item itemvalue="JUnit.ProxyTest" />
-        <item itemvalue="JUnit.ProxyTest.testProxy" />
-        <item itemvalue="JUnit.TestDept (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -605,49 +509,51 @@
       <option name="presentableId" value="Default" />
       <updated>1550582067162</updated>
       <workItem from="1550582087766" duration="3565000" />
-      <workItem from="1551097958896" duration="9460000" />
+      <workItem from="1551097958896" duration="9602000" />
+      <workItem from="1551143106359" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 43m 31s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 43m 46s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 45m 08s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 45m 29s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 45m 42s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 46m 12s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 47m 49s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 48m 19s.xml">
-      <configuration name="TestDept (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDept_(1) - 2019.02.25 at 23h 48m 53s.xml">
       <configuration name="TestDept (1)" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestDept_(1) - 2019.02.25 at 23h 49m 01s.xml">
       <configuration name="TestDept (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDept_(1) - 2019.02.25 at 23h 49m 41s.xml">
+      <configuration name="TestDept (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelect2 - 2019.02.26 at 09h 09m 58s.xml">
+      <configuration name="TestDept.testSelect2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept - 2019.02.26 at 09h 11m 14s.xml">
+      <configuration name="TestDept" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelectAll - 2019.02.26 at 09h 36m 07s.xml">
+      <configuration name="TestDept.testSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelectAll - 2019.02.26 at 09h 36m 49s.xml">
+      <configuration name="TestDept.testSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelectAll - 2019.02.26 at 09h 37m 46s.xml">
+      <configuration name="TestDept.testSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelectAll - 2019.02.26 at 09h 39m 11s.xml">
+      <configuration name="TestDept.testSelectAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDept_testSelectAll - 2019.02.26 at 09h 39m 55s.xml">
+      <configuration name="TestDept.testSelectAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13210000" />
+    <option name="totallyTimeSpent" value="15084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1440" height="801" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="aws.explorer" order="3" side_tool="true" />
@@ -655,10 +561,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.57580173" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36880466" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39795917" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -669,7 +574,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3309038" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32944608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -679,6 +584,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,57 +645,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MybatisDeptFactory/src/main/java/com/jessica/intercept/MyInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyBatisTypeHandler/src/test/java/com/jessica/dao/TestDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="23" column="9" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunAfters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0-sources.jar!/org/apache/ibatis/session/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="764" selection-start-line="764" selection-end-line="764" />
-          <folding>
-            <element signature="e#25256#25257#0" expanded="true" />
-            <element signature="e#25306#25307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -801,16 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisDeptFactory/src/test/java/com/jessica/dao/TestDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="36" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,18 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisPlugin/src/main/java/com/jessica/invocation/MyInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="39" column="5" selection-start-line="11" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -970,13 +803,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/invocation/MyInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/invocation/MyInterceptor.java" />
     <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/resources/MyBatisConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-121" />
@@ -993,13 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="426" selection-start-line="426" selection-end-line="426" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/session/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1071,40 +891,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="497" selection-start-line="497" selection-end-line="497" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisPlugin/src/main/java/com/jessica/invocation/MyInterceptor.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="131" column="19" lean-forward="true" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/factory/SqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="1365">
+          <caret line="131" column="19" selection-start-line="131" selection-start-column="19" selection-end-line="131" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MybatisProxy/src/test/java/ProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="75">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1112,36 +909,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/entity/Dept.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="6555">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisDeptFactory/src/test/java/com/jessica/dao/TestDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="36" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/session/SqlSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/session/DeptMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/dao/IDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/entity/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/invocation/SqlInvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="273">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/java/com/jessica/factory/SqlSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="704" column="62" lean-forward="true" selection-start-line="702" selection-start-column="41" selection-end-line="704" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/test/java/com/jessica/proxy/TestDept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="25" column="114" selection-start-line="25" selection-start-column="114" selection-end-line="25" selection-end-column="114" />
+        <state relative-caret-position="165">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisSessionProxy/src/main/resources/com/jessica/dao/IDeptDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/java/com/jessica/dao/IDeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/MyBatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/main/resources/com/jessica/dao/IDeptDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MybatisMapperInterface/src/test/java/com/jessica/dao/TestDept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="65" lean-forward="true" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
         </state>
       </provider>
     </entry>
