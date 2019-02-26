@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jessica.dao.IEmployeeDao">
+  <resultMap id="EmployeeResultMap" type="Employee">
+    <constructor>
+      <arg column="hireDate" javaType="java.sql.Date"/>
+    </constructor>
+  </resultMap>
+  <select id="findByEmpNo" resultType="Employee">
+    select * from employee where empNo = #{empNo}
+  </select>
+  <select id="findAllEmp" resultMap="EmployeeResultMap">
+    select * from employee
+  </select>
+  <insert id="insertEmployee" parameterType="Employee" useGeneratedKeys="true" keyProperty="empNo">
+    insert into employee (eName, job, dal, hireDate) values(#{eName}, #{job}, #{dal}, #{hireDate})
+  </insert>
+</mapper>

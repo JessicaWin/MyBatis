@@ -16,6 +16,7 @@
         <module>MybatisPlugin</module>
         <module>MybatisProxy</module>
         <module>MybatisSessionProxy</module>
+        <module>MybatisResultMap</module>
     </modules>
 
 
