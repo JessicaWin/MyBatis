@@ -17,6 +17,7 @@
         <module>MybatisProxy</module>
         <module>MybatisSessionProxy</module>
         <module>MybatisResultMap</module>
+        <module>MybaitsDynamicSql</module>
     </modules>
 
 

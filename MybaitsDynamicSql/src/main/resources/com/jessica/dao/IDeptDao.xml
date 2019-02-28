@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jessica.dao.IDeptDao">
+  <select id="selectDept1" resultType="Dept">
+    select * from dept
+    where 1=1
+    <if test="depNo != null and depNo!=0">
+      and depNo = #{depNo}
+    </if>
+    <if test="depName!=null and depName!=''">
+      and depName like '%' #{depName} '%'
+    </if>
+    <if test="loc != null and loc!= ''">
+      and loc = #{loc}
+    </if>
+  </select>
+  <!--只有一个条件生效,也就是只执行满足的条件when,没有满足的条件就执行otherwise,表示默认条件-->
+  <select id="selectDept2" resultType="Dept">
+    select * from dept
+    where 1=1
+    <choose>
+      <when test="depName!=null and depName!=''">
+        and depName like '%' #{depName} '%'
+      </when>
+      <when test="loc != null and loc!= ''">
+        and loc = #{loc}
+      </when>
+      <otherwise>
+        and depNo = #{depNo}
+      </otherwise>
+    </choose>
+  </select>
+
+  <select id="selectDept3" resultType="Dept">
+    select * from dept
+    <where>
+      <if test="depNo != null and depNo!=0">
+        and depNo = #{depNo}
+      </if>
+      <if test="depName!=null and depName!=''">
+        and depName like '%' #{depName} '%'
+      </if>
+      <if test="loc != null and loc!= ''">
+        and loc = #{loc}
+      </if>
+    </where>
+  </select>
+
+  <select id="selectAll" resultType="Dept">
+    select * from ${value}
+  </select>
+
+  <update id="updateDept">
+    update dept
+    <set>
+      <if test="depName!=null and depName!=''">
+        depName=#{depName},
+      </if>
+      <if test="loc!=null and loc!=''">
+        loc=#{loc},
+      </if>
+    </set>
+    where depNo = #{depNo}
+  </update>
+
+  <select id="findTrim" resultType="Dept">
+    select * from dept
+    where
+    <trim prefix="" prefixOverrides="and|or" suffix="" suffixOverrides=",">
+      <if test="depNo != null and depNo!=0">
+        and depNo = #{depNo}
+      </if>
+      <if test="depName!=null and depName!=''">
+        and depName like '%' #{depName} '%'
+      </if>
+      <if test="loc != null and loc!= ''">
+        and loc = #{loc},
+      </if>
+    </trim>
+  </select>
+
+  <insert id="insertForEach">
+    insert into dept  (depName, loc)
+    values
+    <foreach collection="list" item="dept" separator=",">
+      (#{dept.depName},#{dept.loc})
+    </foreach>
+  </insert>
+
+  <select id="findByList" resultType="Dept">
+    select * from dept
+    where depNo in
+    <foreach collection="list" item="deptNo" open="(" close=")" separator=",">
+      #{deptNo}
+    </foreach>
+  </select>
+
+  <select id="findByArray" resultType="Dept">
+    select * from dept
+    where depNo in
+    <foreach collection="array" item="deptNo" open="(" close=")" separator=",">
+      #{deptNo}
+    </foreach>
+  </select>
+
+  <select id="findByMap" resultType="Dept">
+    select * from dept
+    where depNo in
+    <foreach collection="keyMap.values" item="deptNo" open="(" close=")" separator=",">
+      #{deptNo}
+    </foreach>
+  </select>
+
+</mapper>
