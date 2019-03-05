@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 public interface IEmployeeDao {
-    void insertEmployee(Employee employee) throws IOException;
+    int insertEmployee(Employee employee) throws IOException;
     List<Employee> findAllEmp() throws IOException;
-    Employee findByEmpNo() throws IOException;
+    Employee findByEmpNo(int num) throws IOException;
 }
