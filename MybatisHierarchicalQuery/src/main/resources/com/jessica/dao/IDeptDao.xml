@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jessica.dao.IDeptDao">
+    <resultMap id="deptMap" type="Dept">
+        <id column="depNo" property="depNo"></id>
+        <result column="depName" property="depName"/>
+        <result column="loc" property="loc"/>
+
+        <collection property="employeeList" ofType="Employee" column="depNo">
+            <constructor>
+                <arg column="hireDate" javaType="java.sql.Date"/>
+            </constructor>
+            <id column="empNo" property="empNo"/>
+            <result column="eName" property="eName"/>
+            <result column="job" property="job"/>
+            <result column="dal" property="dal"/>
+            <result column="hireDate" property="hireDate"/>
+            <result column="depNo" property="depNo"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectDept" resultMap="deptMap">
+        select *
+        from dept join employee2
+        on dept.depNo = employee2.depNo
+        where dept.depNo = #{depNo}
+    </select>
+
+    <resultMap id="deptMap1" type="Dept">
+        <id column="dept_depNo" property="depNo"></id>
+        <result column="depName" property="depName"/>
+        <result column="loc" property="loc"/>
+
+        <collection property="employeeList" ofType="Employee" column="dept_depNo">
+            <constructor>
+                <arg column="hireDate" javaType="java.sql.Date"/>
+            </constructor>
+            <id column="empNo" property="empNo"/>
+            <result column="eName" property="eName"/>
+            <result column="job" property="job"/>
+            <result column="dal" property="dal"/>
+            <result column="hireDate" property="hireDate"/>
+            <result column="dept_depNo" property="depNo"/>
+        </collection>
+    </resultMap>
+    <select id="selectField" resultMap="deptMap1">
+        select dept.depNo dept_depNo, depName, loc, empNo, eName, job, dal, hireDate
+        from dept join employee2
+        on dept.depNo = employee2.depNo
+        where dept.depNo = #{depNo}
+    </select>
+
+
+    <resultMap id="deptMap2" type="Dept">
+        <id column="depNo" property="depNo"></id>
+        <result column="depName" property="depName"/>
+        <result column="loc" property="loc"/>
+
+        <collection property="employeeList"
+                    ofType="Employee"
+                    select="selectEmployee"
+                    column="depNo">
+        </collection>
+    </resultMap>
+
+    <select id="selectField2" resultMap="deptMap2">
+        select * from dept where depNo = #{depNo}
+    </select>
+
+    <select id="selectEmployee" resultType="Employee">
+        select * from employee2 where depNo = #{dept_depNo}
+    </select>
+</mapper>

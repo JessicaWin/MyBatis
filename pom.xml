@@ -18,6 +18,7 @@
         <module>MybatisSessionProxy</module>
         <module>MybatisResultMap</module>
         <module>MybaitsDynamicSql</module>
+        <module>MybatisHierarchicalQuery</module>
     </modules>
 
 

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MybaitsDynamicSql" />
         <module name="MybatisDeptFactory" />
+        <module name="MybatisHierarchicalQuery" />
         <module name="MybatisMapperInterface" />
         <module name="MybatisMapperXmlConfig" />
         <module name="MybatisPlugin" />
