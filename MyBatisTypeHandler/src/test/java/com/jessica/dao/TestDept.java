@@ -31,17 +31,6 @@ public class TestDept {
   }
 
   @Test
-  public void testInsert() throws IOException{
-    Dept dept = new Dept();
-    dept.setDepName("test");
-    dept.setLoc("shanghai");
-
-    IDeptDao iDeptDao = session.getMapper(IDeptDao.class);
-    iDeptDao.insertDept(dept);
-    session.commit();
-  }
-
-  @Test
   public void testFindByDeptNo() throws IOException{
     IDeptDao iDeptDao = session.getMapper(IDeptDao.class);
     Dept dept = iDeptDao.findByDeptNo(8);
@@ -60,13 +49,13 @@ public class TestDept {
   }
 
   @Test
-  public void testInsert2() throws IOException{
+  public void testInsert() throws IOException{
     Dept dept = new Dept();
     dept.setDepName("test2");
     dept.setLoc("shanghai");
-
+    dept.setFlag(true);
     IDeptDao iDeptDao = session.getMapper(IDeptDao.class);
-    iDeptDao.insertDept2(dept);
+    iDeptDao.insertDept(dept);
     session.commit();
   }
 

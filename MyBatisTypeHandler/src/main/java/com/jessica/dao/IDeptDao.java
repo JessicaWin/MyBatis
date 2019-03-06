@@ -10,5 +10,4 @@ public interface IDeptDao {
     void insertDept(Dept dept) throws IOException;
     Dept findByDeptNo(int depNo) throws IOException;
     List<Dept> findAll() throws IOException;
-    void insertDept2(Dept dept) throws IOException;
 }

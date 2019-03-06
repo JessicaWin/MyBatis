@@ -7,19 +7,16 @@
     <result column="flag" property="flag" typeHandler="com.jessica.handler.BooleanTypeHandler"/>
   </resultMap>
   <select id="findAll" resultMap="DeptResultMap">
-    select * from dept
+    select * from dept2
   </select>
   <select id="findByDeptNo" resultType="Dept">
-    select * from dept where depNo = #{depNo}
+    select * from dept2 where depNo = #{depNo}
   </select>
-  <insert id="insertDept" parameterType="Dept" useGeneratedKeys="true" keyProperty="depNo">
-    insert into dept (depName, loc, flag) values(#{depName}, #{loc}, #{flag})
-  </insert>
-  <insert id="insertDept2" parameterType="Dept" keyProperty="depNo">
+  <insert id="insertDept" parameterType="Dept" keyProperty="depNo">
     <selectKey resultType="Integer" keyProperty="depNo" order="BEFORE">
-      select max(depNo)+1 from dept
+      select max(depNo)+1 from dept2
   </selectKey>
-    insert into dept (depNo, depName, loc) values(#{depNo}, #{depName}, #{loc})
+    insert into dept2 (depNo, depName, loc, flag) values(#{depNo}, #{depName}, #{loc}, #{flag})
   </insert>
 
 </mapper>
